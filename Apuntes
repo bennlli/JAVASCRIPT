@@ -1,0 +1,7 @@
+							****** Pequeños apuntes ******
+
+- Finalizar las sentencias con ';' es bastante considerable, cuando sean '{}' no es necesario.
+- Variables se declaran con 'let', 'var' es de versiones anteriores y da problemas.
+- Declarar constantes 'const' y debemos declarar e inicializar 'const PI = 3.14;'
+- Los valores decimales se deben de guarda con '.'
+

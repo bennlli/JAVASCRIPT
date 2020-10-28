@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- 
+Básicamente el otro archivo no funcionaba porque tenia el <script> en el head, para este caso en concreto
+debemos de tenerlo en el 'body', puesto que comenzamos a leer y la información va al otro archivo '.js', 
+donde hace su función y nos la devuelve al 'textoExterno' para poder mostrarla por pantalla.
+Al pasar al otro archivo '.js' comienza a preguntarnos por el nombre y la edad, que las almacena. Seguido
+nos da un mensajito y nos muestra por pantalla un pequeño resumen de lo preguntado.
+
+
+-->
+
+<head>
+  <title>Tarea: modificar informacion del DOM</title>
+  <meta charset="UTF-8">
+  
+</head>
+<body>
+
+<p id="textoExterno">
+
+</p>
+<script src="tarea-1.js"></script>
+
+</body>
+</html>
+
