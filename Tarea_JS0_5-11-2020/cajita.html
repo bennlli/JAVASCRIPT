@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Página de pruebas</h1>
+    <script>
+        function verificarEntrada(){
+            if (window.confirm('¿Abrimos la sieguiente página?')) {
+                window.location='file:///C:/xampp/htdocs/VSCODE_git/JAVASCRIPT/Tarea_JS0_5-11-2020/index.html';  
+            }else{
+                window.alert('No hay problemas');
+            }
+        }
+    // seccion de codigo javascript 
+    document.write('Valores de las propiedades del objeto screen:<br>');
+    document.write('availHeight :' + screen.availHeight + '<br>');
+    document.write('availWidth :' + screen.availWidth + '<br>');
+    document.write('height :' + screen.height + '<br>');
+    document.write('width :' + screen.width + '<br>');
+    document.write('colorDepth :' + screen.colorDepth);
+    </script><br><br><hr>
+    <button onclick="verificarEntrada()">Entrar al cuadrado malicioso</button>
+</body>
+</html>
