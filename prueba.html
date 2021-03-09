@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba keypress</title>
+</head>
+
+<body>
+    <p id="texto">Lorem ipsum</p>
+    <script>window.onkeydown = function (event) {
+            if (event.keyCode === 112) {
+                document.getElementById("texto").innerHTML = "F1 pulsada";
+            } else if (event.keyCode !== 112) {
+                document.getElementById("texto").style.display = "Pulsa F1 para ayuda";
+            } else {
+                document.getElementById("texto").style.display = "none";
+            }
+        };
+    </script>
+</body>
+
+</html>
